@@ -84,7 +84,7 @@
                         "cloud_watch_logs_role_arn": "${aws_iam_role.CloudtrailtoCloudwatch.arn}",
                         "enable_log_file_validation": true,
                         "event_selector": {
-                            "include_management_events": true,
+                            "include_management_events": false,
                             "read_write_type": "All"
                         },
                         "include_global_service_events": true,
