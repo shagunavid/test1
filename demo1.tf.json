@@ -87,7 +87,7 @@
                             "include_management_events": false,
                             "read_write_type": "All"
                         },
-                        "include_global_service_events": true,
+                        "include_global_service_events": false,
                         "is_multi_region_trail": false,
                         "name": "${var.avid_cloudtrailname}",
                         "s3_bucket_name": "${aws_s3_bucket.avidcloudtrailbucket.bucket}"
